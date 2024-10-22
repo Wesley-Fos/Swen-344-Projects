@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.MainContent{
+  text-align: center;
+}
+
+.Boxes{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25px;
+}
+
+.Box{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 20%;
+  border-radius: 15px;
+  background-color: lightgreen;
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+.Box p{
+  font-size: 24px;
+}
+
+
+.Updater{
+  width: 15%;
+  display: inline-block;
+}
+
+.Updater input{
+  align-self: left;
+  vertical-align: top;
+  margin-top: 1%;
+}
+
+.Updater label{
+  align-self: left;
+  vertical-align: top;
+  margin-right: 6%;
+  margin-top: 10%;
+}
+
+.Updater button{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
